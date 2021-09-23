@@ -50,23 +50,13 @@
     width: 5rem;
     height: 5rem;
     margin: $default-font-size $default-font-size;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
     border: 2px solid white;
-    border-radius: 4px;
+    border-radius: 10px;
 
     &:hover {
       transform: translateY(-4px);
+      color: #c6221c;
     }
   }
 }
-
-// .back-to-top i {
-//   color: $white-color;
-//   margin: 1rem 0 $default-font-size;
-//   transition: all 0.2s ease-in;
-//   cursor: pointer;
-
-//   &:hover {
-//     transform: translateY(-2px);
-//   }
-// }

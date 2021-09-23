@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'ApprovalAppScreenshot.png',
     title: 'VOTING APP',
-    info: 'Vanilla Javascript app showing benefits of approval voting',
+    info: 'Javascript app showing benefits of approval voting',
     info2: '',
     url: 'https://awjustice.github.io/ResponsiveApprovalApp/',
     repo: 'https://github.com/awjustice/ResponsiveApprovalApp', // if no repo, the button will not show up
@@ -58,7 +58,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Portfolio.png',
     title: 'PORTFOLIO',
-    info: 'This site built with Gatsby',
+    info: 'Built with Gatsby',
     info2: '',
     url: 'https://alanjustice.com',
     repo: '', // if no repo, the button will not show up
@@ -67,7 +67,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Contact me',
+  cta: 'CONTACT',
   btn: 'awjustice@gmail.com',
   email: 'awjustice@gmail.com',
 };

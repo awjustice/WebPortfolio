@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade top={isDesktop} bottom={isMobile} duration={800} delay={300} distance="400px">
+        <Fade top={isDesktop} bottom={isMobile} duration={600} delay={300} distance="400px">
           <h1 className="hero-title">
             {/* {title || 'Hi, my name is'}{' '} */}
             <span className="text-color-main">{name || 'Your Name'}</span>
