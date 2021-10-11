@@ -34,9 +34,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ['G-CDBC2NYPET'],
+        trackingIds: ['G-MQ9TG5PMH9'],
         gtagConfig: {
-          optimize_id: '2826230587',
+          // optimize_id: '2826230587',
           anonymize_ip: true,
           cookie_expires: 0,
         },

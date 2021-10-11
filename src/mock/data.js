@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Alan Justice {webDev}', // e.g: 'Name | Developer'
+  title: 'Alan Justice', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'frontend developer portfolio react web javascript wordpress html css gatsby next', // e.g: Welcome to my website
 };
@@ -11,14 +11,14 @@ export const headData = {
 export const heroData = {
   title: 'Alan Justice',
   name: 'Alan Justice {webDeveloper}',
-  subtitle: '[REACT, WORDPRESS, GATSBY]',
+  subtitle: '[REACT, NEXT, WORDPRESS]',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: 'Self taught web developer in search of employment',
+  paragraphOne: 'Self taught web developer',
   paragraphTwo: 'SKILLS',
   paragraphThree: 'React, Javascript, HTML, CSS, Git, Wordpress',
   resume: '', // if no resume, the button will not show up
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'ApprovalAppScreenshot.png',
     title: 'VOTING APP',
-    info: 'Javascript app showing benefits of approval voting',
+    info: 'Javascript app showing benefits of Approval Voting',
     info2: '',
     url: 'https://awjustice.github.io/ResponsiveApprovalApp/',
     repo: 'https://github.com/awjustice/ResponsiveApprovalApp', // if no repo, the button will not show up
@@ -38,8 +38,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'TTautoScreenshot.png',
-    title: 'CAR SITE',
-    info: 'React site for local car repair shop',
+    title: 'AUTO SHOP SITE',
+    info: 'React homepage for local business',
     info2: '',
     url: 'https://awjustice.github.io/ttautorepair/',
     repo: 'https://github.com/awjustice/ttautorepair', // if no repo, the button will not show up
@@ -49,9 +49,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'CAapprovesLogo.png',
     title: 'CaliforniaApproves.org',
-    info: 'Wordpress & Elementor',
+    info: 'Wordpress site for political organization',
     info2: '',
-    url: 'californiaapproves.org',
+    url: 'https://californiaapproves.org',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -67,7 +67,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'CONTACT',
+  cta: '{CONTACT}',
   btn: 'awjustice@gmail.com',
   email: 'awjustice@gmail.com',
 };
