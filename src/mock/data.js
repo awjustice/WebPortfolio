@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Alan Justice',
+  title: 'Alan Justice San Diego Web Developer',
   name: 'Alan Justice {webDeveloper}',
-  subtitle: '[REACT, NEXT, WORDPRESS]',
+  subtitle: '[Web Dev, Content Editor, Email Marketer]',
   cta: '',
 };
 
@@ -30,25 +30,25 @@ export const projectsData = [
     id: nanoid(),
     img: 'ApprovalAppScreenshot.png',
     title: 'VOTING APP',
-    info: 'Javascript app showing benefits of Approval Voting',
+    info: 'Javascript app showing pros of Approval Voting',
     info2: '',
     url: 'https://awjustice.github.io/ResponsiveApprovalApp/',
     repo: 'https://github.com/awjustice/ResponsiveApprovalApp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'TTautoScreenshot.png',
-    title: 'AUTO SHOP SITE',
-    info: 'React homepage for local business',
+    img: 'AutoShop.png',
+    title: 'AUTO SHOP',
+    info: 'React homepage',
     info2: '',
-    url: 'https://awjustice.github.io/ttautorepair/',
-    repo: 'https://github.com/awjustice/ttautorepair', // if no repo, the button will not show up
+    url: 'https://awjustice.github.io/autoshop/',
+    repo: 'https://github.com/awjustice/autoshop', // if no repo, the button will not show up
   },
 
   {
     id: nanoid(),
-    img: 'CAapprovesLogo.png',
-    title: 'CaliforniaApproves.org',
+    img: 'California Approves Banner.png',
+    title: 'CALIFORNIA APPROVES',
     info: 'Wordpress site for political organization',
     info2: '',
     url: 'https://californiaapproves.org',
@@ -67,7 +67,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '{CONTACT}',
+  cta: 'CONTACT',
   btn: 'awjustice@gmail.com',
   email: 'awjustice@gmail.com',
 };

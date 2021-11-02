@@ -36,14 +36,12 @@ module.exports = {
       options: {
         trackingIds: ['G-MQ9TG5PMH9'],
         gtagConfig: {
-          // optimize_id: '2826230587',
           anonymize_ip: true,
           cookie_expires: 0,
         },
         pluginConfig: {
           head: false,
           respectDNT: true,
-          // exclude: ['/preview/**', '/do-not-track/me/too/'],
         },
       },
     },
