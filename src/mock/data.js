@@ -2,16 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Alan Justice', // e.g: 'Name | Developer'
+  title: 'Alan Justice HTML Email Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'frontend developer portfolio react web javascript wordpress html css gatsby next', // e.g: Welcome to my website
+  description:
+    'frontend developer portfolio react web javascript wordpress html css gatsby next email html marketer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Alan Justice San Diego Web Developer',
-  name: 'Alan Justice {webDeveloper}',
-  subtitle: '[Web Dev, Content Editor, Email Marketer]',
+  title: 'Alan Justice San Diego HTML Email Developer',
+  name: 'Alan Justice {emailDeveloper}',
+  subtitle: '--------------------------------------------------------------------',
   cta: '',
 };
 
@@ -28,28 +29,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'ApprovalAppScreenshot.png',
-    title: 'VOTING APP',
-    info: 'Javascript app showing pros of Approval Voting',
-    info2: '',
-    url: 'https://awjustice.github.io/ResponsiveApprovalApp/',
-    repo: 'https://github.com/awjustice/ResponsiveApprovalApp', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'AutoShop.png',
     title: 'AUTO SHOP',
-    info: 'React homepage',
+    info: 'React',
     info2: '',
     url: 'https://awjustice.github.io/autoshop/',
     repo: 'https://github.com/awjustice/autoshop', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ApprovalAppScreenshot.png',
+    title: 'VOTING APP',
+    info: 'Vanilla Javascript',
+    info2: '',
+    url: 'https://awjustice.github.io/ResponsiveApprovalApp/',
+    repo: 'https://github.com/awjustice/ResponsiveApprovalApp', // if no repo, the button will not show up
   },
 
   {
     id: nanoid(),
     img: 'California Approves Banner.png',
     title: 'CALIFORNIA APPROVES',
-    info: 'Wordpress site for political organization',
+    info: 'Wordpress',
     info2: '',
     url: 'https://californiaapproves.org',
     repo: '', // if no repo, the button will not show up
@@ -58,7 +59,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Portfolio.png',
     title: 'PORTFOLIO',
-    info: 'Built with Gatsby',
+    info: 'Gatsby',
     info2: '',
     url: 'https://alanjustice.com',
     repo: '', // if no repo, the button will not show up
@@ -67,7 +68,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'CONTACT',
+  cta: '-CONTACT-',
   btn: 'awjustice@gmail.com',
   email: 'awjustice@gmail.com',
 };
